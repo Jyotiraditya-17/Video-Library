@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export function VideoHome() {
 
-    return(
+    return (
         <div className="text-center" style={{
             backgroundImage: "url('/Register-bg.jpg')",
             backgroundSize: "cover",
@@ -11,10 +11,10 @@ export function VideoHome() {
         }}>
 
             <div>
-                <h1 className="fw-bold text-dark"> VidNest </h1>
+                <h1 className="fw-bold text-dark"> VidHub </h1>
             </div>
-            
-            <div className="d-flex justify-content-center align-items-center" style={{marginTop:'200px'}}>
+
+            <div className="d-flex justify-content-center align-items-center" style={{ marginTop: '200px' }}>
                 <Link className="btn btn-dark mx-2" to='/user-login'> User Login </Link>
                 <Link className="btn btn-warning" to='/admin-login'> Admin Login </Link>
             </div>
